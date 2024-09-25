@@ -1,0 +1,80 @@
+/* Estilo básico do corpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: left;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Navegação */
+nav ul {
+    list-style-type: none;
+    margin: 5;
+    padding: 0;
+    text-align: center;
+    background-color: #333;
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    position: relative;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #4CAF50;
+}
+
+/* Seção de conteúdo */
+.content {
+    padding: 20px;
+    text-align: left;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.main-image {
+    width: 80%;
+    border: 2px solid #333;
+}
+
+/* Imagens nas outras páginas */
+.page-image {
+    width: 60%;
+    border: 2px solid #333;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
